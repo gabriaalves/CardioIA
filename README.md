@@ -165,7 +165,7 @@ O script [`scripts/eda_cardio.py`](scripts/eda_cardio.py) produziu os seguintes 
 
 ### Link para os Dados Numéricos
 
-🔗 **Link público para o dataset**: [Acessar no Google Drive](COLE_SEU_LINK_GOOGLE_DRIVE_DATASET_AQUI)
+🔗 **Link público para o dataset**: [Acessar no Google Drive]([https://drive.google.com/drive/folders/12m6HMAOG698t0vBn6kGeKNU_aVWNo5Ry?usp=sharing]
 
 > ℹ️ Também disponível diretamente no repositório em [`data/cardio_dataset.csv`](data/cardio_dataset.csv)
 
@@ -262,7 +262,7 @@ ecg_images/
 
 ### Link para as Imagens
 
-🔗 **Link público para as imagens ECG**: [Acessar no Google Drive](COLE_SEU_LINK_GOOGLE_DRIVE_IMAGENS_AQUI)
+🔗 **Link público para as imagens ECG**: [Acessar no Google Drive](https://drive.google.com/drive/folders/1D6pXrsmjo5gJzfLwCx31hHX0H86eZY2W?usp=sharing)
 
 > ℹ️ Também disponíveis diretamente no repositório em [`assets/ecg_images/`](assets/ecg_images/)
 
