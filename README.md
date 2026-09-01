@@ -165,7 +165,7 @@ O script [`scripts/eda_cardio.py`](scripts/eda_cardio.py) produziu os seguintes 
 
 ### Link para os Dados Numéricos
 
-🔗 **Link público para o dataset**: [Acessar no Google Drive]([https://drive.google.com/drive/folders/12m6HMAOG698t0vBn6kGeKNU_aVWNo5Ry?usp=sharing]
+🔗 **Link público para o dataset**: [Acessar no Google Drive](https://drive.google.com/drive/folders/12m6HMAOG698t0vBn6kGeKNU_aVWNo5Ry?usp=sharing)
 
 > ℹ️ Também disponível diretamente no repositório em [`data/cardio_dataset.csv`](data/cardio_dataset.csv)
 
@@ -410,9 +410,9 @@ python -m http.server 8000
 
 | Tipo de Dado | Formato | Quantidade | Link Público (Google Drive) | Link no Repositório |
 |:---:|:---:|:---:|:---:|:---:|
-| Dados Numéricos | CSV | 500 registros × 20 variáveis | [🔗 Google Drive](COLE_SEU_LINK_GOOGLE_DRIVE_DATASET_AQUI) | [`data/cardio_dataset.csv`](data/cardio_dataset.csv) |
-| Dados Textuais | TXT | 4 textos (~8.000 palavras) | [🔗 Google Drive](COLE_SEU_LINK_GOOGLE_DRIVE_TEXTOS_AQUI) | [`docs/`](docs/) |
-| Dados Visuais | JPG | 120 imagens ECG (3×40) | [🔗 Google Drive](COLE_SEU_LINK_GOOGLE_DRIVE_IMAGENS_AQUI) | [`assets/ecg_images/`](assets/ecg_images/) |
+| Dados Numéricos | CSV | 500 registros × 20 variáveis | [🔗 Google Drive](https://drive.google.com/drive/folders/12m6HMAOG698t0vBn6kGeKNU_aVWNo5Ry?usp=sharing) | [`data/cardio_dataset.csv`](data/cardio_dataset.csv) |
+| Dados Textuais | TXT | 4 textos (~8.000 palavras) | [🔗 Google Drive](https://drive.google.com/drive/folders/1YORdOnraxeqBKunYGYGP64O-0ThYkxpt?usp=sharing) | [`docs/`](docs/) |
+| Dados Visuais | JPG | 120 imagens ECG (3×40) | [🔗 Google Drive](https://drive.google.com/drive/folders/1D6pXrsmjo5gJzfLwCx31hHX0H86eZY2W?usp=sharing) | [`assets/ecg_images/`](assets/ecg_images/) |
 
 ---
 
