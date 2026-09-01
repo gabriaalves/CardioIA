@@ -1,0 +1,94 @@
+DIRETRIZES BRASILEIRAS DE HIPERTENSÃO ARTERIAL E SEU IMPACTO CARDIOVASCULAR
+
+Fonte: Baseado nas Diretrizes Brasileiras de Hipertensão Arterial da Sociedade Brasileira de Cardiologia (SBC), Sociedade Brasileira de Hipertensão (SBH) e publicações científicas da SciELO.
+
+1. INTRODUÇÃO
+
+A hipertensão arterial sistêmica (HAS) é definida como uma condição clínica multifatorial caracterizada por elevação sustentada dos níveis pressóricos. É o principal fator de risco modificável para doenças cardiovasculares, cerebrovasculares e renais, representando um dos maiores desafios de saúde pública no Brasil e no mundo. Segundo as Diretrizes Brasileiras de Hipertensão Arterial, valores de pressão arterial sistólica iguais ou superiores a 140 mmHg e/ou pressão arterial diastólica iguais ou superiores a 90 mmHg, obtidos em pelo menos duas medições em ocasiões diferentes, caracterizam o diagnóstico de hipertensão.
+
+No contexto do projeto CardioIA, a compreensão das diretrizes de hipertensão é fundamental, pois os dados pressóricos constituem variáveis centrais para algoritmos de predição de risco cardiovascular e sistemas de monitoramento inteligente baseados em IoT.
+
+2. CLASSIFICAÇÃO DA PRESSÃO ARTERIAL
+
+As Diretrizes Brasileiras de Hipertensão classificam a pressão arterial em adultos da seguinte forma:
+
+Pressão ótima: sistólica menor que 120 mmHg e diastólica menor que 80 mmHg. Nesta faixa, o risco cardiovascular é mínimo e não há necessidade de intervenção farmacológica, sendo recomendadas apenas medidas de estilo de vida.
+
+Pressão normal: sistólica entre 120-129 mmHg e/ou diastólica entre 80-84 mmHg. O risco cardiovascular permanece baixo, mas o monitoramento regular é recomendado, especialmente na presença de fatores de risco adicionais.
+
+Pré-hipertensão: sistólica entre 130-139 mmHg e/ou diastólica entre 85-89 mmHg. Nesta faixa, existe risco aumentado de progressão para hipertensão e eventos cardiovasculares, sendo indicadas intervenções no estilo de vida e monitoramento mais frequente.
+
+Hipertensão estágio 1: sistólica entre 140-159 mmHg e/ou diastólica entre 90-99 mmHg. Recomenda-se tratamento farmacológico em pacientes com risco cardiovascular moderado ou alto, ou após falha de medidas não farmacológicas em pacientes de baixo risco.
+
+Hipertensão estágio 2: sistólica entre 160-179 mmHg e/ou diastólica entre 100-109 mmHg. Tratamento farmacológico é indicado para todos os pacientes, frequentemente com associação de dois ou mais anti-hipertensivos.
+
+Hipertensão estágio 3: sistólica igual ou superior a 180 mmHg e/ou diastólica igual ou superior a 110 mmHg. Esta é uma condição de alto risco que requer tratamento farmacológico imediato e agressivo, com possível necessidade de internação em casos de emergência hipertensiva.
+
+3. FISIOPATOLOGIA E MECANISMOS
+
+A hipertensão arterial resulta da interação complexa entre múltiplos sistemas fisiológicos. Os principais mecanismos envolvidos na regulação da pressão arterial e na gênese da hipertensão incluem:
+
+Sistema renina-angiotensina-aldosterona (SRAA): a ativação excessiva deste sistema hormonal promove vasoconstrição, retenção de sódio e água, e remodelamento cardiovascular. Os inibidores da enzima conversora de angiotensina (IECA) e os bloqueadores dos receptores de angiotensina (BRA) atuam sobre este sistema e são pilares do tratamento anti-hipertensivo.
+
+Sistema nervoso simpático: a hiperatividade simpática crônica contribui para a elevação da frequência cardíaca, da contratilidade miocárdica e do tônus vascular, elevando a pressão arterial. Betabloqueadores atuam nesta via terapêutica.
+
+Função endotelial: o endotélio vascular produz substâncias vasodilatadoras (como o óxido nítrico) e vasoconstritoras (como a endotelina). O desequilíbrio entre esses mediadores, observado na disfunção endotelial, contribui para a hipertensão e a aterosclerose.
+
+Mecanismos renais: a capacidade renal de excretar sódio é fundamental na regulação pressórica a longo prazo. Alterações na natriurese pressórica são centrais na manutenção de níveis pressóricos elevados.
+
+4. LESÃO DE ÓRGÃOS-ALVO
+
+A hipertensão arterial não controlada causa danos progressivos em múltiplos órgãos e sistemas:
+
+Coração: a sobrecarga pressórica crônica leva à hipertrofia ventricular esquerda (HVE), inicialmente compensatória, mas que progride para disfunção diastólica e, eventualmente, insuficiência cardíaca. A HVE é um preditor independente de mortalidade cardiovascular e pode ser detectada por eletrocardiograma (ECG) ou ecocardiograma. Além disso, a hipertensão acelera o processo aterosclerótico coronariano, aumentando o risco de infarto agudo do miocárdio.
+
+Cérebro: a hipertensão é o principal fator de risco para acidente vascular cerebral (AVC), tanto isquêmico quanto hemorrágico. A elevação crônica da pressão arterial também está associada a declínio cognitivo e demência vascular.
+
+Rins: a nefroesclerose hipertensiva é uma causa frequente de doença renal crônica. A hipertensão promove lesão glomerular, proteinúria e perda progressiva da função renal.
+
+Vasos: o remodelamento vascular hipertensivo inclui espessamento da camada íntima-média, enrijecimento arterial e formação de aneurismas. A velocidade de onda de pulso (VOP) é uma medida de rigidez arterial utilizada como marcador de lesão vascular.
+
+Retina: a retinopatia hipertensiva é classificada em graus que refletem a severidade e a duração da hipertensão, desde estreitamento arteriolar leve até hemorragias e papiledema.
+
+5. DIAGNÓSTICO E MONITORAMENTO
+
+A medição adequada da pressão arterial é fundamental para o diagnóstico correto e o acompanhamento terapêutico. As diretrizes recomendam diferentes modalidades de aferição:
+
+Medida casual de consultório: método tradicional, deve seguir técnica padronizada com o paciente em repouso de pelo menos 5 minutos, bexiga vazia, sem consumo recente de cafeína ou tabaco.
+
+Monitorização ambulatorial da pressão arterial (MAPA): registra a pressão arterial por 24 horas, fornecendo informações sobre o comportamento pressórico durante vigília e sono, variabilidade pressórica e eficácia terapêutica.
+
+Monitorização residencial da pressão arterial (MRPA): permite medições múltiplas em ambiente domiciliar ao longo de dias, sendo útil para diagnóstico de hipertensão do avental branco e hipertensão mascarada.
+
+No contexto de IoT e IA, dispositivos vestíveis e medidores inteligentes de pressão arterial representam uma evolução natural dessas modalidades, permitindo monitoramento contínuo e transmissão de dados em tempo real para sistemas de alerta e análise preditiva.
+
+6. TRATAMENTO
+
+O tratamento da hipertensão arterial compreende medidas não farmacológicas e farmacológicas.
+
+Medidas não farmacológicas: são indicadas para todos os pacientes hipertensos e incluem redução do consumo de sódio (máximo de 2g/dia), manutenção de peso adequado, prática regular de atividade física, moderação no consumo de álcool, abandono do tabagismo e adoção de padrão alimentar saudável como a dieta DASH (Dietary Approaches to Stop Hypertension).
+
+Medidas farmacológicas: as principais classes de anti-hipertensivos recomendadas como tratamento inicial incluem diuréticos tiazídicos, inibidores da enzima conversora de angiotensina (IECA), bloqueadores dos receptores de angiotensina II (BRA), bloqueadores dos canais de cálcio e betabloqueadores. A escolha do medicamento deve considerar as comorbidades do paciente, efeitos adversos potenciais e preferências individuais.
+
+7. APLICAÇÕES DE INTELIGÊNCIA ARTIFICIAL
+
+A inteligência artificial apresenta múltiplas aplicações potenciais no manejo da hipertensão arterial:
+
+Predição de risco: modelos de machine learning podem identificar pacientes com alto risco de desenvolver hipertensão com base em dados demográficos, clínicos e laboratoriais, permitindo intervenções preventivas precoces.
+
+Monitoramento inteligente: algoritmos de análise de séries temporais aplicados a dados de MAPA ou dispositivos vestíveis podem detectar padrões anormais de variabilidade pressórica e prever crises hipertensivas.
+
+Otimização terapêutica: sistemas de suporte à decisão clínica baseados em IA podem auxiliar na escolha do tratamento anti-hipertensivo mais adequado para cada perfil de paciente, considerando comorbidades, interações medicamentosas e farmacogenômica.
+
+Análise de imagens: algoritmos de visão computacional aplicados a ECGs podem detectar sinais de hipertrofia ventricular esquerda e outras alterações associadas à hipertensão, contribuindo para o rastreamento e o diagnóstico precoce de lesões de órgãos-alvo.
+
+8. CONCLUSÃO
+
+A hipertensão arterial sistêmica é uma condição de alta prevalência e impacto clínico, cuja complexidade fisiopatológica e terapêutica a torna um campo fértil para aplicações de inteligência artificial. A integração de dados pressóricos com outras variáveis clínicas em modelos preditivos pode melhorar significativamente a estratificação de risco, a personalização do tratamento e o monitoramento de pacientes cardíacos. As Diretrizes Brasileiras de Hipertensão fornecem a base clínica essencial para a construção de soluções de IA que sejam clinicamente relevantes, eticamente responsáveis e tecnicamente robustas.
+
+Referências:
+- Barroso WKS, et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol, 2021.
+- Sociedade Brasileira de Cardiologia. VII Diretriz Brasileira de Hipertensão Arterial. Arq Bras Cardiol, 2016.
+- Malachias MVB, et al. 7th Brazilian Guideline of Arterial Hypertension. Arq Bras Cardiol, 2016.
+- Whelton PK, et al. 2017 ACC/AHA Guideline for Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. JACC, 2018.
+- Williams B, et al. 2018 ESC/ESH Guidelines for the management of arterial hypertension. Eur Heart J, 2018.

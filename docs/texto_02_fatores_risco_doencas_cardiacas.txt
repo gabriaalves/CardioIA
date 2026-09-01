@@ -1,0 +1,89 @@
+FATORES DE RISCO PARA DOENÇAS CARDÍACAS: CLASSIFICAÇÃO, MECANISMOS E ESTRATÉGIAS DE PREVENÇÃO
+
+Fonte: Baseado em diretrizes da Sociedade Brasileira de Cardiologia (SBC), Organização Mundial da Saúde (OMS) e publicações da Biblioteca Virtual em Saúde (BVS).
+
+1. INTRODUÇÃO
+
+As doenças cardíacas constituem um grupo heterogêneo de condições que afetam a estrutura e o funcionamento do coração. A identificação e o controle dos fatores de risco representam a estratégia mais eficaz para a prevenção primária dessas enfermidades. Os fatores de risco cardiovascular são classicamente divididos em duas categorias: fatores não modificáveis (intrínsecos ao indivíduo) e fatores modificáveis (passíveis de intervenção).
+
+A compreensão aprofundada desses fatores é essencial não apenas para a prática clínica, mas também para o desenvolvimento de algoritmos de inteligência artificial capazes de predizer risco cardiovascular, estratificar pacientes e personalizar intervenções preventivas.
+
+2. FATORES DE RISCO NÃO MODIFICÁVEIS
+
+2.1. Idade
+
+O envelhecimento é o fator de risco não modificável mais significativo para doenças cardiovasculares. Com o avanço da idade, ocorrem alterações estruturais e funcionais progressivas no sistema cardiovascular, incluindo enrijecimento arterial, espessamento da parede ventricular, calcificação valvar e disfunção endotelial. Estudos epidemiológicos demonstram que o risco de doença coronariana dobra aproximadamente a cada década de vida após os 45 anos em homens e após os 55 anos em mulheres. Em indivíduos acima de 75 anos, a prevalência de insuficiência cardíaca atinge cerca de 10%.
+
+2.2. Sexo Biológico
+
+Os homens apresentam risco cardiovascular significativamente maior que as mulheres na fase pré-menopausa, com incidência de doença coronariana duas a cinco vezes superior. Essa diferença é atribuída, em parte, ao efeito protetor dos hormônios estrogênios sobre o endotélio vascular, o perfil lipídico e a reatividade vascular. Entretanto, após a menopausa, o risco feminino aumenta progressivamente, igualando-se ou até superando o risco masculino em idades mais avançadas. Além disso, as manifestações clínicas das doenças cardíacas em mulheres frequentemente diferem das apresentações típicas masculinas, o que pode levar a diagnósticos tardios e subnotificação.
+
+2.3. Hereditariedade e Genética
+
+O histórico familiar de doença cardiovascular prematura (definida como infarto agudo do miocárdio ou morte súbita cardíaca antes dos 55 anos em parentes do sexo masculino ou antes dos 65 anos em parentes do sexo feminino) é um importante preditor de risco cardiovascular. Estudos genômicos identificaram mais de 160 loci genéticos associados à doença arterial coronariana, envolvendo genes relacionados ao metabolismo lipídico, à inflamação, à coagulação e à função endotelial. No entanto, a predisposição genética interage de forma complexa com fatores ambientais e comportamentais, configurando um modelo multifatorial de risco.
+
+2.4. Etnia e Raça
+
+Diferenças étnico-raciais na prevalência e na apresentação das doenças cardiovasculares são bem documentadas. No Brasil, a população negra apresenta maior prevalência de hipertensão arterial e maior incidência de acidente vascular cerebral hemorrágico. Essas disparidades refletem não apenas variações genéticas, mas também desigualdades socioeconômicas no acesso à saúde, educação e condições de vida.
+
+3. FATORES DE RISCO MODIFICÁVEIS
+
+3.1. Hipertensão Arterial Sistêmica
+
+A hipertensão arterial é o principal fator de risco modificável para doenças cardiovasculares, cerebrovasculares e renais. Define-se como valores sustentados de pressão arterial sistólica igual ou superior a 140 mmHg e/ou pressão arterial diastólica igual ou superior a 90 mmHg. A hipertensão promove lesão endotelial, hipertrofia ventricular esquerda, aceleração da aterosclerose e aumento da pós-carga cardíaca. O tratamento adequado da hipertensão reduz em até 40% o risco de AVC e em 25% o risco de infarto agudo do miocárdio.
+
+3.2. Dislipidemia
+
+As alterações do metabolismo lipídico, especialmente a elevação do colesterol LDL (lipoproteína de baixa densidade) e a redução do colesterol HDL (lipoproteína de alta densidade), são fatores centrais no desenvolvimento da aterosclerose. O LDL-colesterol oxidado penetra a parede arterial, desencadeando um processo inflamatório crônico que culmina na formação de placas ateroscleróticas. A cada redução de 1 mmol/L no colesterol LDL, observa-se diminuição de aproximadamente 22% no risco de eventos cardiovasculares maiores. A hipertrigliceridemia também está associada a aumento do risco cardiovascular, especialmente quando combinada com baixos níveis de HDL.
+
+3.3. Diabetes Mellitus
+
+O diabetes mellitus, tanto tipo 1 quanto tipo 2, é um fator de risco independente para doença cardiovascular. A hiperglicemia crônica promove disfunção endotelial, estresse oxidativo, inflamação sistêmica e alterações na coagulação, acelerando o processo aterosclerótico. Pacientes diabéticos apresentam risco duas a quatro vezes maior de desenvolver doença arterial coronariana e AVC. Além disso, a neuropatia diabética pode mascarar os sintomas de isquemia miocárdica, levando ao chamado infarto silencioso.
+
+3.4. Tabagismo
+
+O tabagismo é um dos fatores de risco mais potentes e evitáveis para doenças cardiovasculares. A fumaça do cigarro contém mais de 7.000 substâncias químicas que promovem lesão endotelial, aumento da adesividade plaquetária, elevação do fibrinogênio, redução do HDL-colesterol e vasoconstrição coronariana. O risco cardiovascular de fumantes é duas a quatro vezes maior que o de não fumantes. A cessação do tabagismo é a intervenção isolada mais eficaz para redução do risco cardiovascular, com benefícios observáveis já nas primeiras semanas após a interrupção.
+
+3.5. Obesidade e Sobrepeso
+
+A obesidade, definida como índice de massa corporal (IMC) igual ou superior a 30 kg/m², é um fator de risco metabólico e hemodinâmico para doenças cardiovasculares. A adiposidade visceral, em particular, está associada a resistência insulínica, inflamação crônica de baixo grau, dislipidemia aterogênica e hipertensão arterial. A circunferência abdominal é considerada um marcador mais preciso de risco cardiovascular que o IMC, com pontos de corte definidos em 102 cm para homens e 88 cm para mulheres.
+
+3.6. Sedentarismo
+
+A inatividade física é reconhecida pela OMS como o quarto principal fator de risco para mortalidade global. O exercício físico regular promove benefícios cardiovasculares por múltiplos mecanismos: melhora da função endotelial, redução da pressão arterial, otimização do perfil lipídico, controle glicêmico, redução do peso corporal e melhora da capacidade cardiorrespiratória. Recomenda-se a prática de pelo menos 150 minutos semanais de atividade física moderada ou 75 minutos de atividade vigorosa.
+
+3.7. Estresse e Fatores Psicossociais
+
+O estresse crônico, a depressão e o isolamento social são reconhecidos como fatores de risco cardiovascular independentes. O estresse ativa o eixo hipotálamo-hipófise-adrenal e o sistema nervoso simpático, elevando cronicamente os níveis de cortisol e catecolaminas, o que resulta em hipertensão, taquicardia, hipercoagulabilidade e inflamação sistêmica. A síndrome de Takotsubo (miocardiopatia por estresse) é um exemplo dramático do impacto emocional sobre o coração.
+
+4. INTERAÇÃO ENTRE FATORES DE RISCO
+
+Os fatores de risco cardiovascular raramente atuam de forma isolada. A co-ocorrência de múltiplos fatores, como na síndrome metabólica (obesidade abdominal, hipertensão, dislipidemia e hiperglicemia), resulta em um risco cardiovascular global significativamente superior à soma dos riscos individuais. Essa interação sinérgica fundamenta a abordagem de estratificação de risco global, utilizada por escores como o Framingham Risk Score e o SCORE europeu.
+
+5. RELEVÂNCIA PARA A INTELIGÊNCIA ARTIFICIAL
+
+A natureza multifatorial do risco cardiovascular torna este domínio particularmente adequado para aplicações de inteligência artificial e aprendizado de máquina. Modelos preditivos baseados em técnicas como Random Forest, Gradient Boosting e Redes Neurais podem capturar interações não lineares e complexas entre variáveis que os escores tradicionais não conseguem modelar adequadamente.
+
+Algoritmos de machine learning treinados com dados clínicos de pacientes cardíacos podem contribuir para:
+- Estratificação de risco mais precisa e personalizada
+- Identificação precoce de pacientes de alto risco
+- Predição de eventos cardiovasculares adversos
+- Otimização de protocolos de triagem
+- Personalização de intervenções preventivas
+
+A integração de dados de IoT (dispositivos vestíveis de monitoramento cardíaco, medidores de pressão inteligentes, monitores contínuos de glicose) pode ampliar significativamente a capacidade preditiva desses modelos, permitindo o monitoramento em tempo real e a detecção precoce de alterações nos padrões fisiológicos.
+
+6. CONSIDERAÇÕES SOBRE VIÉS
+
+É fundamental reconhecer que os datasets utilizados para treinamento de modelos de IA em cardiologia podem conter vieses relacionados a gênero, raça e condições socioeconômicas. Mulheres e minorias étnicas são historicamente sub-representadas em ensaios clínicos cardiovasculares, o que pode levar a modelos com desempenho desigual entre subgrupos populacionais. A governança de dados e a auditoria de viés algorítmico são práticas essenciais para garantir a equidade e a confiabilidade das soluções de IA em saúde.
+
+7. CONCLUSÃO
+
+A compreensão abrangente dos fatores de risco cardiovascular, seus mecanismos fisiopatológicos e suas interações complexas é fundamental tanto para a prática clínica quanto para o desenvolvimento de soluções de inteligência artificial em cardiologia. A coleta e a preparação adequada de dados que representem fielmente esses fatores constituem o alicerce sobre o qual se constroem modelos preditivos robustos e clinicamente relevantes.
+
+Referências:
+- Sociedade Brasileira de Cardiologia. Atualização da Diretriz de Prevenção Cardiovascular. Arq Bras Cardiol, 2019.
+- Organização Mundial da Saúde. Cardiovascular diseases (CVDs) - Fact Sheet, 2021.
+- Yusuf S, et al. Effect of potentially modifiable risk factors associated with myocardial infarction (INTERHEART study). Lancet, 2004.
+- Précoma DB, et al. Atualização da Diretriz de Prevenção Cardiovascular da SBC. Arq Bras Cardiol, 2019.
+- Biblioteca Virtual em Saúde (BVS). Doenças Cardiovasculares: prevenção e controle.
