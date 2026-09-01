@@ -452,9 +452,10 @@ python -m http.server 8000
 
 ## Equipe
 
-| Nome | RM | Turma |
-|------|:--:|:-----:|
-| `[INSERIR NOME]` | `[INSERIR RM]` | `[INSERIR TURMA]` |
+| Nome | RM | 
+|------|:--:|
+| `[Gabriela de Andrade Alves]` | `[RM567740]` | 
+| `[Leonardo de Mattos Oliveira]` | `[RM568219]` | 
 
 ---
 
