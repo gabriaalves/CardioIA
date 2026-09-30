@@ -1,0 +1,203 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background Particles */
+.bgParticles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  left: var(--x);
+  top: 20%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.12), transparent 70%);
+  animation: floatParticle 8s ease-in-out infinite;
+  animation-delay: var(--delay);
+}
+
+@keyframes floatParticle {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.5; }
+  50% { transform: translateY(-60px) scale(1.2); opacity: 0.8; }
+}
+
+/* Card */
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-lg), var(--shadow-glow);
+  animation: fadeInUp 0.8s ease;
+  position: relative;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logoCircle {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(236, 72, 153, 0.15));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(99, 102, 241, 0.3);
+}
+
+.heartIcon {
+  font-size: 2rem;
+  animation: heartbeat 2s ease-in-out infinite;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.input {
+  padding: 0.8rem 1rem;
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: all var(--transition-fast);
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.input::placeholder {
+  color: var(--text-muted);
+}
+
+/* Error Box */
+.errorBox {
+  padding: 0.75rem 1rem;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  border-radius: var(--radius-sm);
+  color: #fca5a5;
+  font-size: 0.85rem;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Submit Button */
+.submitBtn {
+  padding: 0.85rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  border: none;
+  border-radius: var(--radius-md);
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  margin-top: 0.5rem;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+
+.submitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Spinner */
+.spinner {
+  width: 22px;
+  height: 22px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Demo Credentials */
+.demo {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(6, 182, 212, 0.08);
+  border: 1px solid rgba(6, 182, 212, 0.2);
+  border-radius: var(--radius-md);
+}
+
+.demoTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.demoCredential {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-family: 'Courier New', monospace;
+}

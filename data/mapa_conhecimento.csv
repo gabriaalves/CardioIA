@@ -1,0 +1,37 @@
+sintoma_1,sintoma_2,doenca_associada
+dor no peito,esforço físico,Angina de Peito
+dor forte no peito,piora com esforço,Angina de Peito
+aperto no tórax,pressão no peito,Infarto Agudo do Miocárdio
+dor no peito irradia para o braço,suor frio,Infarto Agudo do Miocárdio
+dor no peito,náusea,Infarto Agudo do Miocárdio
+pressão forte no peito,braço esquerdo,Infarto Agudo do Miocárdio
+cansaço constante,fadiga,Insuficiência Cardíaca
+cansaço,exausto,Insuficiência Cardíaca
+falta de ar,dificuldade para respirar,Insuficiência Cardíaca
+falta de ar,sufocamento,Insuficiência Cardíaca
+falta de ar,acordou durante o sono,Insuficiência Cardíaca Descompensada
+dispneia,ortopneia,Insuficiência Cardíaca Descompensada
+palpitações,coração dispara,Arritmia Cardíaca
+coração acelerado,tontura,Arritmia Cardíaca
+palpitações,ansiedade,Taquicardia Supraventricular
+batimentos irregulares,tontura,Fibrilação Atrial
+inchaço nos tornozelos,pés inchados,Insuficiência Cardíaca Congestiva
+edema,marca demora para voltar,Insuficiência Cardíaca Congestiva
+inchaço nas pernas,cansaço,Insuficiência Cardíaca Congestiva
+tontura,sensação de desmaio,Hipotensão Ortostática
+tontura ao levantar,quase desmaio,Hipotensão Ortostática
+síncope,perda de consciência,Estenose Aórtica
+dor de cabeça na nuca,visão embaçada,Hipertensão Arterial
+cefaleia occipital,pressão alta,Hipertensão Arterial
+dor de cabeça latejante,não passa com analgésico,Crise Hipertensiva
+espuma na urina,inchaço no rosto,Doença Renal Hipertensiva
+urina com espuma,urinar muito à noite,Nefropatia Hipertensiva
+inchaço no rosto,cansaço renal,Doença Renal Crônica
+dor nas costas,formigamento no braço,Angina Atípica
+incômodo entre omoplatas,aparece ao caminhar,Angina Atípica
+dor nas costas ao esforço,formigamento,Doença Arterial Coronariana
+falta de ar ao deitar,tosse noturna,Edema Pulmonar Cardiogênico
+dor no peito em repouso,sudorese,Síndrome Coronariana Aguda
+cansaço extremo,falta de ar,Miocardiopatia Dilatada
+pernas pesadas,varizes,Insuficiência Venosa
+dor na panturrilha,inchaço unilateral,Trombose Venosa Profunda
