@@ -157,7 +157,119 @@ O script realiza:
 - **Match parcial** (um sintoma encontrado) → Confiança **MODERADA** 🟡
 - **Relatório formatado** para cada paciente
 
+<<<<<<< HEAD
 #### Resultado da Execução
+=======
+6. **Frequência Cardíaca de Repouso** — Variável central para projetos de IoT e monitoramento com wearables. FC >80 bpm em repouso está associada a maior risco cardiovascular.
+
+### Resultados da Análise Exploratória (EDA)
+
+O script [`scripts/eda_cardio.py`](scripts/eda_cardio.py) produziu os seguintes insights principais:
+
+| Insight | Valor |
+|---------|-------|
+| Prevalência de doença cardíaca | 42.0% |
+| Maior correlação positiva com DC | Idade (r = 0.265) |
+| Maior correlação negativa com DC | HDL-colesterol (r = -0.086) |
+| Pacientes hipertensos (PA ≥ 140) | 8.6% |
+| Pacientes obesos (IMC ≥ 30) | 35.6% |
+| Fumantes | 18.6% |
+| Diabéticos | 21.4% |
+
+**Correlações clinicamente relevantes modeladas**:
+- Colesterol total ↔ LDL: r = 0.887 (esperado: ~60-70% do total é LDL)
+- Peso ↔ IMC: r = 0.845 (relação matemática direta)
+- Idade ↔ Pressão sistólica: r = 0.423 (enrijecimento arterial com idade)
+- Glicemia ↔ Diabetes: r = 0.361 (critério diagnóstico)
+
+### Link para os Dados Numéricos
+
+🔗 **Link público para o dataset**: [Acessar no Google Drive](https://drive.google.com/drive/folders/12m6HMAOG698t0vBn6kGeKNU_aVWNo5Ry?usp=sharing)
+
+> ℹ️ Também disponível diretamente no repositório em [`data/cardio_dataset.csv`](data/cardio_dataset.csv)
+
+---
+
+## Parte 2 – Dados Textuais (NLP)
+
+### Descrição dos Textos
+
+A pasta [`docs/`](docs/) contém **4 textos em português** sobre saúde cardiovascular, totalizando aproximadamente 8.000 palavras de conteúdo técnico-científico. Os textos foram redigidos com base em publicações científicas reais das principais fontes da área:
+
+| # | Arquivo | Tema | Palavras | Fontes |
+|:-:|---------|------|:--------:|--------|
+| 1 | [`texto_01_estatistica_cardiovascular_brasil.txt`](docs/texto_01_estatistica_cardiovascular_brasil.txt) | Panorama epidemiológico das DCV no Brasil | ~1.200 | ABC Cardiol, DATASUS, PNS |
+| 2 | [`texto_02_fatores_risco_doencas_cardiacas.txt`](docs/texto_02_fatores_risco_doencas_cardiacas.txt) | Fatores de risco modificáveis e não-modificáveis | ~2.000 | SBC, OMS, BVS, INTERHEART |
+| 3 | [`texto_03_diretrizes_hipertensao_arterial.txt`](docs/texto_03_diretrizes_hipertensao_arterial.txt) | Diretrizes brasileiras de hipertensão arterial | ~2.000 | SBC, SBH, ESC/ESH |
+| 4 | [`texto_04_inteligencia_artificial_cardiologia.txt`](docs/texto_04_inteligencia_artificial_cardiologia.txt) | Estado da arte da IA na cardiologia | ~2.500 | Nature Medicine, Lancet, JAMA |
+
+### Origem dos Textos
+
+Os textos foram elaborados com base em publicações científicas de acesso aberto das seguintes fontes:
+- **SciELO** (Scientific Electronic Library Online) — Artigos dos Arquivos Brasileiros de Cardiologia
+- **BVS** (Biblioteca Virtual em Saúde) — Publicações sobre doenças cardiovasculares
+- **Sociedade Brasileira de Cardiologia (SBC)** — Diretrizes clínicas e estatísticas
+- **Organização Mundial da Saúde (OMS)** — Relatórios sobre doenças cardiovasculares
+- **Periódicos internacionais** — Nature Medicine, The Lancet, JAMA Cardiology
+
+### Potencial de Uso em NLP
+
+Esses textos são recursos valiosos para múltiplas tarefas de Processamento de Linguagem Natural (NLP) nas fases seguintes do CardioIA:
+
+#### 1. Extração de Entidades Nomeadas (NER)
+- **O que é**: Identificação automática de entidades como doenças, sintomas, medicamentos, procedimentos e órgãos mencionados nos textos.
+- **Exemplo**: No texto sobre fatores de risco, algoritmos de NER podem extrair entidades como `hipertensão arterial` (doença), `betabloqueadores` (medicamento), `disfunção endotelial` (mecanismo), `140 mmHg` (valor limiar).
+- **Relevância**: Permite construir ontologias cardiológicas e bases de conhecimento estruturadas a partir de textos não estruturados, fundamentais para sistemas de suporte à decisão clínica.
+
+#### 2. Análise de Sentimento e Classificação de Severidade
+- **O que é**: Classificação do tom e da gravidade das informações contidas nos textos.
+- **Exemplo**: Trechos que mencionam "fator de risco mais potente" ou "condição de alto risco" podem ser classificados com polaridade negativa/alta severidade, enquanto "efeito cardioprotetor" recebe classificação positiva.
+- **Relevância**: Em aplicações futuras, a análise de sentimento pode ser aplicada a relatos de pacientes em fóruns de saúde e redes sociais para monitorar a percepção sobre sintomas e adesão ao tratamento.
+
+#### 3. Classificação de Tópicos (Topic Modeling)
+- **O que é**: Identificação automática dos temas abordados nos textos usando algoritmos como LDA (Latent Dirichlet Allocation).
+- **Exemplo**: Os 4 textos abordam tópicos distintos (epidemiologia, fatores de risco, hipertensão, IA) que podem ser automaticamente identificados e categorizados.
+- **Relevância**: Permite organizar automaticamente grandes volumes de literatura médica, identificando tendências de pesquisa e lacunas no conhecimento cardiológico.
+
+#### 4. Sumarização Automática
+- **O que é**: Geração de resumos concisos a partir de textos extensos.
+- **Exemplo**: Algoritmos de sumarização podem condensar o texto de 2.000 palavras sobre fatores de risco em um resumo de 200 palavras mantendo as informações mais relevantes.
+- **Relevância**: Em contexto hospitalar, a sumarização automática de prontuários e relatórios pode economizar tempo significativo dos profissionais de saúde.
+
+#### 5. Similaridade Semântica e Busca Inteligente
+- **O que é**: Cálculo de similaridade entre textos e consultas usando embeddings.
+- **Exemplo**: Uma busca por "tratamento para pressão alta" deve retornar trechos do texto 3 (diretrizes de hipertensão) com alta relevância.
+- **Relevância**: Fundamental para chatbots de triagem e sistemas de busca em bases de conhecimento médico.
+
+### Justificativa da Relevância para IA em Saúde
+
+A análise de textos médicos por NLP é essencial porque:
+
+1. **~80% dos dados de saúde são não-estruturados** (notas de evolução, laudos, relatórios), e NLP é a única forma de extrair informações deles de maneira escalável.
+2. **A literatura médica cresce exponencialmente** — mais de 1 milhão de artigos biomédicos são publicados por ano, impossibilitando a leitura manual por profissionais.
+3. **Erros de comunicação** são uma das principais causas de eventos adversos em hospitais; NLP pode padronizar e verificar a consistência de registros clínicos.
+4. **A telemedicina** depende cada vez mais de interações textuais (chat, mensagens) que podem ser analisadas por algoritmos de NLP para triagem e priorização.
+
+---
+
+## Parte 3 – Dados Visuais (Visão Computacional)
+
+### Descrição das Imagens
+
+A pasta [`assets/ecg_images/`](assets/ecg_images/) contém **120+ imagens de eletrocardiogramas (ECGs)** de 12 derivações, obtidas de datasets públicos de acesso aberto aprovados por comitês de ética.
+
+### Fonte das Imagens
+
+As imagens foram obtidas do dataset público:
+- **ECG Images Dataset of Cardiac and COVID-19 Patients** — Disponível no Mendeley Data e Kaggle
+- **Publicação**: Khan AH, et al. *Data in Brief*, 2021
+- **Licença**: CC BY 4.0 (Creative Commons Attribution)
+- **Aprovação ética**: Dataset aprovado por comitê de ética, com anonimização prévia
+
+### Organização das Imagens
+
+As imagens estão organizadas em 3 categorias clínicas:
+>>>>>>> 8e343b3ce9907d7eef50fcfceac7532f7e96f8a8
 
 ```
 Total de frases analisadas:           10
@@ -167,6 +279,54 @@ Diagnósticos de confiança moderada:    13
 Regras no mapa de conhecimento:        36
 ```
 
+<<<<<<< HEAD
+=======
+> Instruções detalhadas de download estão disponíveis em [`assets/ecg_images/README_IMAGES.md`](assets/ecg_images/README_IMAGES.md).
+
+### Link para as Imagens
+
+🔗 **Link público para as imagens ECG**: [Acessar no Google Drive](https://drive.google.com/drive/folders/1D6pXrsmjo5gJzfLwCx31hHX0H86eZY2W?usp=sharing)
+
+> ℹ️ Também disponíveis diretamente no repositório em [`assets/ecg_images/`](assets/ecg_images/)
+
+### Potencial para Visão Computacional
+
+As imagens ECG são particularmente adequadas para algoritmos de Visão Computacional por diversas razões:
+
+#### 1. Classificação de Arritmias
+- **Técnica**: Redes Neurais Convolucionais (CNNs) como ResNet, EfficientNet e VGG
+- **Objetivo**: Classificar automaticamente o tipo de ritmo cardíaco (normal, fibrilação atrial, taquicardia ventricular, etc.)
+- **Impacto**: O estudo de Hannun et al. (Nature Medicine, 2019) demonstrou que CNNs superam cardiologistas na classificação de 12 tipos de arritmias
+
+#### 2. Detecção de Infarto Agudo do Miocárdio
+- **Técnica**: Transfer Learning com modelos pré-treinados (ImageNet → ECG)
+- **Objetivo**: Identificar padrões de supradesnivelamento de ST indicativos de infarto
+- **Impacto**: Diagnóstico precoce de infarto pode reduzir a mortalidade em até 50% quando tratado nas primeiras horas
+
+#### 3. Segmentação de Ondas
+- **Técnica**: Redes de segmentação semântica (U-Net)
+- **Objetivo**: Delinear automaticamente as ondas P, complexo QRS e onda T do traçado eletrocardiográfico
+- **Impacto**: Permite medições automáticas de intervalos (PR, QT, QRS) fundamentais para o diagnóstico
+
+#### 4. Detecção de Bordas e Extração de Características
+- **Técnica**: Filtros de Canny, Sobel, Laplaciano e técnicas de processamento de imagem
+- **Objetivo**: Identificar contornos e formas das ondas cardíacas para extração de features
+- **Impacto**: Base para pipelines de feature engineering em modelos de Machine Learning
+
+#### 5. Reconhecimento de Anomalias (Anomaly Detection)
+- **Técnica**: Autoencoders Variacionais (VAE) e Redes Adversárias Generativas (GAN)
+- **Objetivo**: Detectar ECGs anormais sem necessidade de rótulos específicos
+- **Impacto**: Útil para triagem em larga escala onde a maioria dos ECGs é normal
+
+### Justificativa da Importância para IA em Saúde
+
+1. **Escala**: O ECG é o exame cardiológico mais realizado mundialmente — a IA pode analisar milhões de registros que seriam impossíveis de revisar manualmente.
+2. **Acessibilidade**: Equipamentos de ECG portáteis são relativamente baratos e disponíveis até em áreas remotas, tornando a IA um multiplicador de acesso.
+3. **Velocidade**: Diagnóstico automatizado reduz o tempo de análise de minutos para segundos, crucial em emergências cardíacas.
+4. **Consistência**: A IA não sofre de fadiga ou viés de confirmação, garantindo análise padronizada.
+5. **Telemedicina**: ECGs portáteis + IA permitem diagnóstico remoto em comunidades sem cardiologistas.
+
+>>>>>>> 8e343b3ce9907d7eef50fcfceac7532f7e96f8a8
 ---
 
 ## Parte 2 – Classificador Básico de Texto
@@ -386,7 +546,15 @@ python scripts/mlp_ecg_classifier.py
 python scripts/mlp_ecg_classifier.py
 ```
 
+<<<<<<< HEAD
 > ⚠️ **Nota para Windows**: Se encontrar erros de encoding, use: `$env:PYTHONUTF8="1"` antes dos comandos Python.
+=======
+| Tipo de Dado | Formato | Quantidade | Link Público (Google Drive) | Link no Repositório |
+|:---:|:---:|:---:|:---:|:---:|
+| Dados Numéricos | CSV | 500 registros × 20 variáveis | [🔗 Google Drive](https://drive.google.com/drive/folders/12m6HMAOG698t0vBn6kGeKNU_aVWNo5Ry?usp=sharing) | [`data/cardio_dataset.csv`](data/cardio_dataset.csv) |
+| Dados Textuais | TXT | 4 textos (~8.000 palavras) | [🔗 Google Drive](https://drive.google.com/drive/folders/1YORdOnraxeqBKunYGYGP64O-0ThYkxpt?usp=sharing) | [`docs/`](docs/) |
+| Dados Visuais | JPG | 120 imagens ECG (3×40) | [🔗 Google Drive](https://drive.google.com/drive/folders/1D6pXrsmjo5gJzfLwCx31hHX0H86eZY2W?usp=sharing) | [`assets/ecg_images/`](assets/ecg_images/) |
+>>>>>>> 8e343b3ce9907d7eef50fcfceac7532f7e96f8a8
 
 ---
 
@@ -417,9 +585,10 @@ python scripts/mlp_ecg_classifier.py
 
 ## Equipe
 
-| Nome | RM | Turma |
-|------|:--:|:-----:|
-| `[INSERIR NOME]` | `[INSERIR RM]` | `[INSERIR TURMA]` |
+| Nome | RM | 
+|------|:--:|
+| Gabriela de Andrade Alves | RM567740 | 
+| Leonardo de Mattos Oliveira | RM568219 | 
 
 ---
 
