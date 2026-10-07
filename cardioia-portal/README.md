@@ -17,8 +17,8 @@ Projeto desenvolvido para a disciplina de **Inteligência Artificial — FIAP 20
 ## 🎬 Vídeo de Demonstração
 
 > 📹 **Vídeo de Demonstração no YouTube (Não Listado):**  
-> `[INSERIR O LINK DO VÍDEO DO PORTAL NO YOUTUBE AQUI]`  
-> *(Vídeo de até 4 minutos apresentando login, dashboard, pacientes, agendamentos com useReducer e rotas protegidas)*
+> [`[INSERIR O LINK DO VÍDEO DO PORTAL NO YOUTUBE AQUI]`  ](https://youtube.com/watch?v=15xr1NtDW8w&feature=youtu.be)
+
 
 ---
 
