@@ -3,6 +3,8 @@ import { apiService } from '../services/api.js'
 import { useAuth } from '../contexts/AuthContext.jsx'
 import styles from './DashboardPage.module.css'
 
+const DATA_HOJE_FORMATADA = new Date().toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })
+
 /**
  * Página principal do Dashboard com métricas e resumos.
  */
@@ -43,7 +45,7 @@ export default function DashboardPage() {
         </div>
         <div className={styles.dateBox}>
           <span className={styles.dateIcon}>📅</span>
-          <span>{new Date().toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</span>
+          <span>{DATA_HOJE_FORMATADA}</span>
         </div>
       </header>
 

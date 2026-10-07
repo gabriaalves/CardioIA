@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from 'react'
+import { createContext, useContext, useState } from 'react'
 
 const AuthContext = createContext(null)
 
@@ -43,35 +43,30 @@ const USUARIOS_MOCK = [
   }
 ]
 
-export function AuthProvider({ children }) {
-  const [usuario, setUsuario] = useState(null)
-  const [carregando, setCarregando] = useState(true)
-
-  // Verificar token no localStorage ao carregar
-  useEffect(() => {
+function obterUsuarioInicial() {
+  try {
     const token = localStorage.getItem('cardioia_token')
     const dadosUsuario = localStorage.getItem('cardioia_usuario')
-
     if (token && dadosUsuario) {
-      try {
-        const parts = token.split('.')
-        const payload = JSON.parse(atob(parts[1]))
-
-        // Verificar se o token não expirou
-        if (payload.exp > Date.now()) {
-          setUsuario(JSON.parse(dadosUsuario))
-        } else {
-          // Token expirado
-          localStorage.removeItem('cardioia_token')
-          localStorage.removeItem('cardioia_usuario')
-        }
-      } catch {
-        localStorage.removeItem('cardioia_token')
-        localStorage.removeItem('cardioia_usuario')
+      const parts = token.split('.')
+      const payload = JSON.parse(atob(parts[1]))
+      if (payload.exp > Date.now()) {
+        return JSON.parse(dadosUsuario)
       }
+      localStorage.removeItem('cardioia_token')
+      localStorage.removeItem('cardioia_usuario')
     }
-    setCarregando(false)
-  }, [])
+  } catch {
+    localStorage.removeItem('cardioia_token')
+    localStorage.removeItem('cardioia_usuario')
+  }
+  return null
+}
+
+export function AuthProvider({ children }) {
+  const [usuario, setUsuario] = useState(obterUsuarioInicial)
+  const [carregando] = useState(false)
+
 
   /**
    * Realiza login simulado verificando credenciais contra USUARIOS_MOCK.

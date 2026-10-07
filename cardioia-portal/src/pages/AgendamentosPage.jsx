@@ -13,6 +13,8 @@ const formularioInicial = {
   tipo: 'Consulta Inicial'
 }
 
+const DATA_MINIMA_HOJE = new Date().toISOString().split('T')[0]
+
 /**
  * Reducer para gerenciar o estado do formulário com useReducer.
  */
@@ -76,6 +78,7 @@ export default function AgendamentosPage() {
       // Limpar mensagem após 4 segundos
       setTimeout(() => setMensagem(null), 4000)
     } catch (err) {
+      console.error('Erro ao agendar consulta:', err)
       setMensagem({ tipo: 'erro', texto: '❌ Erro ao agendar consulta. Tente novamente.' })
     } finally {
       setSalvando(false)
@@ -183,7 +186,7 @@ export default function AgendamentosPage() {
                   onChange={(e) => dispatch({ type: 'ATUALIZAR_CAMPO', campo: 'data', valor: e.target.value })}
                   className={styles.input}
                   required
-                  min={new Date().toISOString().split('T')[0]}
+                  min={DATA_MINIMA_HOJE}
                 />
               </div>
 
