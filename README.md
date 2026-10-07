@@ -41,7 +41,7 @@
 ## 🎬 Vídeo de Demonstração
 
 > 📹 **Link do Vídeo Oficial no YouTube (Não Listado):**  
-> `[INSERIR O LINK DO SEU VÍDEO NO YOUTUBE AQUI]`  
+> `youtube.com/watch?v=15xr1NtDW8w&feature=youtu.be`  
 > *(Vídeo com gravação de tela de até 4 minutos demonstrando a execução do extrator de sintomas, do classificador TF-IDF, dos notebooks e do portal web interativo)*
 
 ---
