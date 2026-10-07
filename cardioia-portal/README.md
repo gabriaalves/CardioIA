@@ -17,7 +17,7 @@ Projeto desenvolvido para a disciplina de **Inteligência Artificial — FIAP 20
 ## 🎬 Vídeo de Demonstração
 
 > 📹 **Vídeo de Demonstração no YouTube (Não Listado):**  
-> [`[INSERIR O LINK DO VÍDEO DO PORTAL NO YOUTUBE AQUI]`  ](https://youtube.com/watch?v=15xr1NtDW8w&feature=youtu.be)
+> [`[[INSERIR O LINK DO VÍDEO DO PORTAL NO YOUTUBE AQUI](https://youtube.com/watch?v=15xr1NtDW8w&feature=youtu.be)]`  ].
 
 
 ---
