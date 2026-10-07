@@ -41,7 +41,7 @@
 ## 🎬 Vídeo de Demonstração
 
 > 📹 **Link do Vídeo Oficial no YouTube (Não Listado):**  
-> `youtube.com/watch?v=15xr1NtDW8w&feature=youtu.be´ 
+> (youtube.com/watch?v=15xr1NtDW8w&feature=youtu.be) 
 
 
 ---
